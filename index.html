@@ -4,87 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ywE4gF/c9IwKsBf7dt1QKTRUImdtnE4DHkW3qzFhOJGXh/8lbb7AuSS4z0nmA4GP" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="/static/css/style.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
     <title>Portfolio@DANesh</title>
-    <style>
-        body {
-    font-family: 'Arial', sans-serif;
-    background-color: #EEF296;
-    margin: 0;
-    
-
-}
-
-header {
-    position: relative;
-    background-color: #343a40;
-    color: #fff;
-    text-align: center;
-    padding: 50px 0;
-}
-
-header img {
-    border: 5px solid #fff;
-}
-
-section {
-    margin: 0px;
-}
-p{
-    font-size: x-large;
-}
-h2 {
-    font-size: xx-large; /* Increase the font size for h2 */
-}
-
-#about {
-    text-align: center;
-}
-#skills {
-    text-align: center;
-    color: #fff;
-    background-color: #343a40;
-    padding: 20px 0;
-}
-#available {
-    text-align: center;
-}
-#available_list {
-    font-size: x-large;
-}
-#skill_list {
-    font-size: x-large;
-}
-#contact {
-    text-size-adjust: 50;
-    text-align: center;
-    color: #050505;
-    background-color: #ccdcec;
-    padding: 0;
-    overflow: hidden;
-    min-height: calc(10vh - 40px); /* Adjust as needed */
-}
-.card {
-    border: none;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-@media (max-width: 768px) {
-    .sidenav {
-        display: none;
-    }
-}
-
-/* Add more custom styling as needed */
-
-    </style>
 </head>
 <body>
     <header class="bg-dark text-white text-center py-5">
-        <img src="{{ url_for('static', filename='images/avatar.jpeg') }}" alt="Your Name" class="rounded-circle mb-3" width="150">
+        <img src="{{ url_for('static', filename='/avatar.jpeg') }}" alt="Your Name" class="rounded-circle mb-3" width="150">
         <h1 class="display-4">Daneshwar Verma</h1>
         <p class="lead">Data Analyst</p>
     </header>
