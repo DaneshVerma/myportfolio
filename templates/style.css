@@ -35,10 +35,11 @@ h2 {
     text-align: center;
     color: #fff;
     background-color: #343a40;
-    padding: 20px 0;
+    padding: 30px;
 }
 #available {
     text-align: center;
+    padding-bottom: 30px;
 }
 #available_list {
     font-size: x-large;
